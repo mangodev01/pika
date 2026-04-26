@@ -27,13 +27,13 @@ Drop `pika.h` into your project, define `PIKA_OMIT_PREFIX` if you want unprefixe
 
 ## Supported Types
 
-| Macro | C type | Getter |
-|-------|--------|--------|
-| `BOOL` | `bool` | `GetBool` |
-| `CSTR` | `char*` | `GetCStr` |
-| `U32` | `uint32_t` | `GetU32` |
+| Macro |  C type   |  Getter  |
+|-------|-----------|----------|
+| `BOOL`| `bool`    | `GetBool`|
+| `CSTR`| `char*`   | `GetCStr`|
+| `U32` | `uint32_t`| `GetU32` |
 | `I32` | `int32_t` | `GetI32` |
-| `U64` | `uint64_t` | `GetU64` |
+| `U64` | `uint64_t`| `GetU64` |
 | `I64` | `int64_t` | `GetI64` |
 
 ## Examples
