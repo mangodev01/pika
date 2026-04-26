@@ -2,7 +2,7 @@
 
 #include <stdbool.h>
 #include <stdio.h>
-#include "pika.h"
+#include "../pika.h"
 
 static const schema_t schema = {
 	BOOL(false, .Name = "verbose", .Desc = "Enable verbose output", .Alias = ALIASES("v")),
