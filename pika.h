@@ -5,6 +5,9 @@
 #include <stdbool.h>
 #include <stdlib.h>
 
+// DONT unprefix this macro - VERSION is VERY ambiguous
+#define PIKA_VERSION "0.0.1"
+
 #define PIKA_RESET        "\033[0m"
 #define PIKA_BLACK        "\033[30m"
 #define PIKA_RED          "\033[31m"
