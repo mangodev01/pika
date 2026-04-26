@@ -1,0 +1,8 @@
+- [x] basic functionality
+- [x] --help
+- [x] make internal functions use _ as prefix
+- [ ] figure out a better way to resolve argument collisions in the schema
+- [ ] subcommands
+- [ ] proper handling of bools (add --no-<value>)
+- [ ] --interactive (possible tui generation with ncurses)
+- [ ] better arg getting so you dont have to use the same type 3 times: in schema, when getting, and when providing varibale type
