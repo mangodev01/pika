@@ -29,12 +29,12 @@ Drop `pika.h` into your project, define `PIKA_OMIT_PREFIX` if you want unprefixe
 
 | Macro |  C type   |  Getter  |
 |-------|-----------|----------|
-| `BOOL`| `bool`    | `GetBool`|
-| `CSTR`| `char*`   | `GetCStr`|
-| `U32` | `uint32_t`| `GetU32` |
-| `I32` | `int32_t` | `GetI32` |
-| `U64` | `uint64_t`| `GetU64` |
-| `I64` | `int64_t` | `GetI64` |
+| `BOOL`| `bool`    | `PikaGetBool`|
+| `CSTR`| `char*`   | `PikaGetCStr`|
+| `U32` | `uint32_t`| `PikaGetU32` |
+| `I32` | `int32_t` | `PikaGetI32` |
+| `U64` | `uint64_t`| `PikaGetU64` |
+| `I64` | `int64_t` | `PikaGetI64` |
 
 ## Examples
 
